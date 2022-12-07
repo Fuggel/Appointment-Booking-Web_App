@@ -1,0 +1,124 @@
+.appointment-container {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 50%;
+  min-width: 450px;
+  border: 3px solid #000;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 35px 25px;
+}
+
+.appointment-personal {
+  margin: 10px auto 30px auto;
+  width: 50%;
+  width: 100%;
+  max-width: 520px;
+  border: 3px solid #000;
+  background-color: #f9f5eb;
+  padding: 25px;
+}
+
+.appointment-heading {
+  font-size: 2.2rem;
+  margin: 100px auto 50px auto;
+}
+
+.appointment-container h2 {
+  text-decoration: underline;
+  margin-bottom: 35px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.appointment-container h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.cancel-btn {
+  display: block;
+  margin: 15px auto auto auto;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid #000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #cc0e0e;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid #000;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s ease;
+  width: 80px;
+  background-color: #ef5350;
+  text-align: center;
+}
+
+.logout-btn:hover {
+  background-color: #bd4444;
+}
+
+.pdf-btn {
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid #000;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s ease;
+  width: 80px;
+  background-color: #ef5350;
+  text-align: center;
+}
+
+.pdf-btn:hover {
+  background-color: #bd4444;
+}
+
+.information {
+  font-size: 18px;
+}
+
+ul li {
+  margin: 10px auto auto 30px;
+  font-size: 17px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 414px) {
+  .appointment-container {
+    min-width: 350px;
+  }
+
+  .appointment-container h3 {
+    font-size: 20px;
+  }
+
+  .appointment-heading {
+    font-size: 2.1rem;
+  }
+
+  .logout-btn {
+    top: 20px;
+    right: 20px;
+  }
+}

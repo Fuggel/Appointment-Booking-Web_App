@@ -1,0 +1,69 @@
+.welcome-header {
+  margin: 50px 0;
+}
+
+.welcome-container {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 50%;
+  min-width: 450px;
+  border: 3px solid #000;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.welcome-container label {
+  cursor: pointer;
+}
+
+.welcome-text {
+  font-size: 18px;
+}
+
+.welcome-text strong,
+.welcome-text span {
+  text-decoration: underline;
+}
+
+ul li {
+  margin: 10px auto auto 30px;
+  font-size: 17px;
+}
+
+.checkbox-terms {
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.submit-terms {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid #000;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s ease;
+  background-color: #ef5350;
+  width: 150px;
+  margin: 20px auto 10px auto;
+}
+
+.submit-terms:hover {
+  background-color: #bd4444;
+}
+
+.terms-error {
+  color: #ff0000;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 414px) {
+  .welcome-container {
+    min-width: 350px;
+  }
+}
