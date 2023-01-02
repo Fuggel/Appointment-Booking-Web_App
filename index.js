@@ -33,5 +33,5 @@ $(".ending_time").timepicker({
   interval: 30,
   minTime: new Date(0, 0, 0, 8),
   maxTime: new Date(0, 0, 0, 16),
-  maxTime: "07:00 PM", // Has to be 3 hours later than max starting_time
+  maxTime: "07:00 PM", // Has to be 3 hours later than max
 });
